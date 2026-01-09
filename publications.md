@@ -14,15 +14,14 @@ A curated list of publications, preprints, and conference abstracts from the Bos
 
 - Arora R, Cao C, Kumar M, Sinha S, Chanda A, McNeil R, Samuel D, Matthews TW, Nakoneshny SC, Hart RD, Chandarana SP, Dort JC, Hyrcza MD, Gallo M, Bonni S, **Bose P**, et al. *Spatial transcriptomics reveals distinct and conserved tumor core and edge architectures that predict survival and targeted therapy response.* Nature Communications 14 (1), 5029 (2023).[web:80]
 
-- Mirzaei R, McNeil R, D'Mello C, Wong B, Sarkar S, Visser F, Poon C, **Bose P**, Yong VW. *Spatial single-cell profiling identifies protein kinase Cδ-expressing microglia with anti-tumor function in glioblastoma.* iScience (2025).[web:30]
-
-- Ghahremanifard P, An J, Chanda A, Chan AMY, Nakoneshny SC, Matthews TW, Chandarana SP, Hart RD, Hyrcza MD, Dort JC, Bonni S, **Bose P**. *PIAS1 Shapes a Tumor-Suppressive Microenvironment by Suppressing Immune Evasion in Oral Squamous Cell Carcinoma.* Cancers 17 (17), 2905 (2025).[web:39][web:41]
-
 - De Boeck A, Ahn BY, D’Mello C, Lun X, Menon SV, Alshehri MM, … **Bose P**, et al. *Glioma-derived IL-33 orchestrates an inflammatory brain tumor microenvironment that accelerates glioma progression.* Nature Communications 11 (1), 4997 (2020).[web:76]
+
+- Chakravarthy A, Khan L, Bensler NP, **Bose P**, De Carvalho DD. *TGF-β-associated extracellular matrix genes link cancer-associated fibroblasts to immune evasion and immunotherapy failure.* Nature Communications 9 (1), 4692 (2018).[web:16]
+
 
 ---
 
-## Publications (2025–2020)
+## Publications (2025–2017)
 
 ### 2025
 
