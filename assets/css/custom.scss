@@ -1,0 +1,47 @@
+---
+# Only needed so Jekyll processes this with Sass
+---
+
+@import "minima"; // keep Minima base styles
+
+/* Footer layout and logo positioning */
+
+.site-footer {
+  position: relative;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-wrapper {
+  position: relative;
+  min-height: 50px;
+}
+
+.footer-logo {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.5rem;
+}
+
+.footer-logo img {
+  height: 40px;
+}
+
+/* Make sure footer text doesn’t overlap logo on small screens */
+
+.footer-text {
+  margin-left: 60px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .footer-logo {
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-text {
+    margin-left: 0;
+  }
+}
