@@ -25,7 +25,7 @@ permalink: /people/
       Director, Tumour Biology and Translational Research, Ohlson Research Initiative
     </p>
     <div class="person-links">
-      <a href="mailto:pbose@ucalgary.ca">Email</a>
+      <a href="mailto:pbose@ucalgary.ca">Email: pbose@ucalgary.ca</a>
     </div>
   </div>
 
@@ -45,7 +45,7 @@ permalink: /people/
       (Add 1 line on research focus when ready.)
     </p>
     <div class="person-links">
-      <a href="mailto:achanda@ucalgary.ca">Email</a>
+      <a href="mailto:achanda@ucalgary.ca">Email: achanda@ucalgary.ca</a>
     </div>
   </div>
 
@@ -57,7 +57,7 @@ permalink: /people/
       (Add 1 line on research focus when ready.)
     </p>
     <div class="person-links">
-      <a href="mailto:kmtahsinhassan.rahit@ucalgary.ca">Email</a>
+      <a href="mailto:kmtahsinhassan.rahit@ucalgary.ca">Email: kmtahsinhassan.rahit@ucalgary.ca</a>
     </div>
   </div>
 
@@ -87,7 +87,7 @@ permalink: /people/
       Precision oncology and biomarker-focused translational work within the lab’s clinical research programs.
     </p>
     <div class="person-links">
-      <a href="mailto:megha.murali@ucalgary.ca">Email</a>
+      <a href="mailto:megha.murali@ucalgary.ca">Email: murali@ucalgary.ca</a>
     </div>
   </div>
 
