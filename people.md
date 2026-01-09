@@ -19,7 +19,9 @@ permalink: /people/
     <p class="person-blurb">
       Associate Professor, Departments of Oncology, Biochemistry and Molecular Biology, Pathology
       and Lab. Medicine
+    </p>
       Scientific Lead, Precision Oncology and Experimental Therapeutics (POET)
+       </p>
       Director, Tumour Biology and Translational Research, Ohlson Research Initiative
     </p>
     <div class="person-links">
@@ -40,7 +42,6 @@ permalink: /people/
     <div class="person-name">Ayan Chanda, MTech, PhD</div>
     <div class="person-role">Postdoctoral Associate</div>
     <p class="person-blurb">
-      Postdoctoral researcher
       (Add 1 line on research focus when ready.)
     </p>
     <div class="person-links">
@@ -53,7 +54,7 @@ permalink: /people/
     <div class="person-name">K.M. Tahsin Hassan Rahit, MSc, PhD</div>
     <div class="person-role">Postdoctoral Associate</div>
     <p class="person-blurb">
-      Postdoctoral researcher
+      (Add 1 line on research focus when ready.)
     </p>
     <div class="person-links">
       <a href="mailto:kmtahsinhassan.rahit@ucalgary.ca">Email</a>
@@ -100,7 +101,7 @@ permalink: /people/
 
   <div class="person-card">
     <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Jackson McLean headshot">
-    <div class="person-name">Jackson McLean, BHSc (BMSC)</div>
+    <div class="person-name">Jackson McLean, BHSc </div>
     <div class="person-role">MSc Student (Year 2) — Biochemistry & Molecular Biology</div>
     <p class="person-blurb">
       (Add 1 line on project focus when ready.)
@@ -109,7 +110,7 @@ permalink: /people/
 
   <div class="person-card">
     <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Jinsu An headshot">
-    <div class="person-name">Jinsu An, BHSc (BINF)</div>
+    <div class="person-name">Jinsu An, BHSc </div>
     <div class="person-role">MSc Student (Year 2) — Biochemistry and Molecular Biology</div>
     <p class="person-blurb">
       (Add 1 line on project focus when ready.)
