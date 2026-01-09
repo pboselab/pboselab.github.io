@@ -1,7 +1,9 @@
 ---
 layout: default
 title: People
+permalink: /people/
 ---
+
 
 ## PI
 - Name — role — links
