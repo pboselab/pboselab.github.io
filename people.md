@@ -172,7 +172,7 @@ permalink: /people/
   <div class="person-card">
     <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Parisa Ghahremanifard headshot">
     <div class="person-name">Parisa Ghahremanifard</div>
-    <div class="person-role">Former PhD Student Biochemistry & Molecular Biology (2019–2025)</div>
+    <div class="person-role">Former PhD Student — Biochemistry & Molecular Biology (2019–2025)</div>
     <p class="person-blurb">
       Now: TDA
     </p>
