@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
+
 
 **Email:** [pbose@ucalgary.ca](mailto:pbose@ucalgary.ca)  
 
