@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Research
+permalink: /research/
 ---
+
 
 ## Theme 1
 Short paragraph + (optional) image
