@@ -5,7 +5,7 @@ title: Home
 
 # Bose Lab
 
-**Mission:** We study head and neck cancer biology and tumor immunity to enable more precise, effective therapies for patients.[web:7]
+**Mission:** We study head and neck cancer biology and tumor immunity to enable more precise, effective therapies for patients.
 
 **Quick links:** [Research](/research/) · [People](/people/) · [Publications](/publications/) · [Join](/join/) · [Contact](/contact/)
 
