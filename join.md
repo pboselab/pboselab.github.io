@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Join
+permalink: /join/
 ---
+
 
 ## Open positions
 - Undergrad / MSc / PhD / Postdoc (edit to match)
