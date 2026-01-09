@@ -111,7 +111,7 @@ permalink: /people/
   <div class="person-card">
     <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Jinsu An headshot">
     <div class="person-name">Jinsu An, BHSc </div>
-    <div class="person-role">MSc Student (Year 2) — Biochemistry and Molecular Biology</div>
+    <div class="person-role">MSc Student (Year 2) — Biochemistry & Molecular Biology</div>
     <p class="person-blurb">
       (Add 1 line on project focus when ready.)
     </p>
@@ -120,7 +120,7 @@ permalink: /people/
   <div class="person-card">
     <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Lucy Jooyoung Hyun headshot">
     <div class="person-name">Lucy Jooyoung Hyun, BSc</div>
-    <div class="person-role">MSc Student (Year 1) — Biochemistry and Molecular Biology</div>
+    <div class="person-role">MSc Student (Year 1) — Biochemistry & Molecular Biology</div>
     <p class="person-blurb">
       (Add 1 line on project focus when ready.)
     </p>
@@ -163,7 +163,7 @@ permalink: /people/
   <div class="person-card">
     <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Reid McNeil headshot">
     <div class="person-name">Reid McNeil, MSc</div>
-    <div class="person-role">Former MSc Student — Biochemistry and Molecular Biology (2021–2024)</div>
+    <div class="person-role">Former MSc Student — Biochemistry & Molecular Biology (2021–2024)</div>
     <p class="person-blurb">
       Now: Bioinformatics Specialist, Mass General Hospital (Boston, MA, USA).
     </p>
@@ -172,7 +172,7 @@ permalink: /people/
   <div class="person-card">
     <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Parisa Ghahremanifard headshot">
     <div class="person-name">Parisa Ghahremanifard</div>
-    <div class="person-role">Former PhD Student Biochemistry and Molecular Biology (2019–2025)</div>
+    <div class="person-role">Former PhD Student Biochemistry & Molecular Biology (2019–2025)</div>
     <p class="person-blurb">
       Now: TDA
     </p>
