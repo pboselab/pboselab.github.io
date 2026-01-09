@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {{ content | prepend: "" }}
+    {{ site.github && site.github.build_revision }}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ "/" | relative_url }}">
+          <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Bose Lab logo" style="height:40px; vertical-align:middle; margin-right:8px;">
+          {{ site.title }}
+        </a>
+        {% include nav.html %}
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
