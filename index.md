@@ -3,17 +3,28 @@ layout: default
 title: Home
 ---
 
-# Your Lab Name
+# Bose Lab
 
 **Mission:** We study ______ to understand ______.
 
-## Research
-- Theme 1 (1 sentence)
-- Theme 2 (1 sentence)
-- Theme 3 (1 sentence)
+**Quick links:** [Research](/research/) · [People](/people/) · [Publications](/publications/) · [Join](/join/) · [Contact](/contact/)
+
+---
+
+## Research themes
+- **Theme 1:** (1 sentence)
+- **Theme 2:** (1 sentence)
+- **Theme 3:** (1 sentence)
+
+---
 
 ## News
-- (Optional) Paper / award / talk
+- (Optional) Paper accepted in ______ (Month Year)
+- (Optional) New lab member: ______
+- (Optional) Talk at ______
+
+---
 
 ## Join
-We welcome (students/postdocs/etc). See the Join page.
+We welcome motivated students and trainees.  
+See **[Join](/join/)** for open positions and how to apply.
