@@ -4,17 +4,25 @@ title: Contact
 permalink: /contact/
 ---
 
+# Contact
 
 **Email:** [pbose@ucalgary.ca](mailto:pbose@ucalgary.ca)  
 
+**Lab:** Bose Lab  
 **Institution:** University of Calgary  
 
+---
+
 ## Location
+
 Arnie Charbonneau Cancer Institute  
 University of Calgary  
 
+---
+
 ## Mailing address
+
 Arthur J. E. Child Comprehensive Cancer Centre  
 Room YC083503  
 3395 Hospital Drive NW  
-Calgary, AB, Canada T2N 5G2  
+Calgary, AB, Canada T2N 5G2
