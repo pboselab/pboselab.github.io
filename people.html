@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>People | Bose Lab Preview</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Dark Mode Init -->
+    <script>
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { document.documentElement.setAttribute('data-theme', savedTheme); }
+    </script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container site-header-inner">
+            <a class="site-title" href="preview.html">Bose Lab</a>
+            <nav class="site-nav">
+                <a class="nav-link" href="preview.html">Home</a>
+                <a class="nav-link" href="research.html">Research</a>
+                <a class="nav-link active" href="people.html">People</a>
+                <a class="nav-link" href="publications.html">Publications</a>
+                <a class="nav-link" href="join.html">Join</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <button id="theme-toggle" class="btn-theme" aria-label="Toggle dark mode">
+                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+        <div class="container">
+            <h1>People</h1>
+
+            <h2>Principal Investigator</h2>
+
+            <div class="people-grid">
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Pinaki Bose headshot">
+                    <div class="person-name">Pinaki Bose, PhD</div>
+                    <div class="person-role">Principal Investigator</div>
+                    <p class="person-blurb">
+                        Associate Professor, Departments of Oncology, Biochemistry and Molecular Biology, Pathology and
+                        Lab. Medicine
+                    </p>
+                    <p class="person-blurb">
+                        Scientific Lead, Precision Oncology and Experimental Therapeutics (POET)
+                    </p>
+                    <p class="person-blurb">
+                        Director, Tumour Biology and Translational Research, Ohlson Research Initiative
+                    </p>
+                    <div class="person-links">
+                        <a href="mailto:pbose@ucalgary.ca">Email: pbose@ucalgary.ca</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 3rem 0; border: 0; border-top: 1px solid var(--border-color);">
+
+            <h2>Postdoctoral Fellows</h2>
+
+            <div class="people-grid">
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Ayan Chanda headshot">
+                    <div class="person-name">Ayan Chanda, MTech, PhD</div>
+                    <div class="person-role">Postdoctoral Associate</div>
+                    <p class="person-blurb">(Add 1 line on research focus when ready.)</p>
+                    <div class="person-links">
+                        <a href="mailto:achanda@ucalgary.ca">Email: achanda@ucalgary.ca</a>
+                    </div>
+                </div>
+
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg"
+                        alt="K.M. Tahsin Hassan Rahit headshot">
+                    <div class="person-name">K.M. Tahsin Hassan Rahit, MSc, PhD</div>
+                    <div class="person-role">Postdoctoral Associate</div>
+                    <p class="person-blurb">(Add 1 line on research focus when ready.)</p>
+                    <div class="person-links">
+                        <a href="mailto:kmtahsinhassan.rahit@ucalgary.ca">Email: kmtahsinhassan.rahit@ucalgary.ca</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 3rem 0; border: 0; border-top: 1px solid var(--border-color);">
+
+            <h2>Research and Technical Staff</h2>
+
+            <div class="people-grid">
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Dae-Sun Kim headshot">
+                    <div class="person-name">Dae-Sun Kim, BSc, PhD</div>
+                    <div class="person-role">Research Associate</div>
+                    <p class="person-blurb">
+                        Supports translational research workflows across lab projects.
+                        (Add 1 line on specific focus when ready.)
+                    </p>
+                </div>
+
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Megha Murali headshot">
+                    <div class="person-name">Megha Murali, MSc, PhD</div>
+                    <div class="person-role">Technical Associate</div>
+                    <p class="person-blurb">
+                        Precision oncology and biomarker-focused translational work within the lab’s clinical research
+                        programs.
+                    </p>
+                    <div class="person-links">
+                        <a href="mailto:megha.murali@ucalgary.ca">Email: murali@ucalgary.ca</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 3rem 0; border: 0; border-top: 1px solid var(--border-color);">
+
+            <h2>Graduate Students</h2>
+
+            <div class="people-grid">
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Jackson McLean headshot">
+                    <div class="person-name">Jackson McLean, BHSc </div>
+                    <div class="person-role">MSc Student (Year 2) — Biochemistry & Molecular Biology</div>
+                    <p class="person-blurb">(Add 1 line on project focus when ready.)</p>
+                </div>
+
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Jinsu An headshot">
+                    <div class="person-name">Jinsu An, BHSc </div>
+                    <div class="person-role">MSc Student (Year 2) — Biochemistry & Molecular Biology</div>
+                    <p class="person-blurb">(Add 1 line on project focus when ready.)</p>
+                </div>
+
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Lucy Jooyoung Hyun headshot">
+                    <div class="person-name">Lucy Jooyoung Hyun, BSc</div>
+                    <div class="person-role">MSc Student (Year 1) — Biochemistry & Molecular Biology</div>
+                    <p class="person-blurb">(Add 1 line on project focus when ready.)</p>
+                </div>
+            </div>
+
+            <hr style="margin: 3rem 0; border: 0; border-top: 1px solid var(--border-color);">
+
+            <h2>Undergraduate Students</h2>
+
+            <div class="people-grid">
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Jamie MacDonald headshot">
+                    <div class="person-name">Jamie MacDonald</div>
+                    <div class="person-role">Undergraduate Student — Computer Science </div>
+                    <p class="person-blurb">(Add 1 line on project focus when ready.)</p>
+                </div>
+
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Maria Mansi headshot">
+                    <div class="person-name">Maria Mansi</div>
+                    <div class="person-role">Undergraduate Student — Computer Science </div>
+                    <p class="person-blurb">(Add 1 line on project focus when ready.)</p>
+                </div>
+            </div>
+
+            <hr style="margin: 3rem 0; border: 0; border-top: 1px solid var(--border-color);">
+
+            <h2>Alumni</h2>
+
+            <div class="people-grid">
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Reid McNeil headshot">
+                    <div class="person-name">Reid McNeil, MSc</div>
+                    <div class="person-role">Former MSc Student — Biochemistry & Molecular Biology (2021–2024)</div>
+                    <p class="person-blurb">Now: Bioinformatics Specialist, Mass General Hospital (Boston, MA, USA).</p>
+                </div>
+
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Parisa Ghahremanifard headshot">
+                    <div class="person-name">Parisa Ghahremanifard</div>
+                    <div class="person-role">Former PhD Student — Biochemistry & Molecular Biology (2019–2025)</div>
+                    <p class="person-blurb">Now: TDA</p>
+                </div>
+
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Ilana Lebon headshot">
+                    <div class="person-name">Ilana Lebon</div>
+                    <div class="person-role">Former Undergraduate Student — Honours thesis & summer student</div>
+                    <p class="person-blurb">Now: Master’s student in Pharmacology & Toxicology, University of Toronto.
+                    </p>
+                </div>
+
+                <div class="person-card">
+                    <img class="person-photo" src="assets/people/placeholder.jpg" alt="Lara D’souza headshot">
+                    <div class="person-name">Lara D’souza</div>
+                    <div class="person-role">Former Undergraduate Student — Honours thesis & summer student</div>
+                    <p class="person-blurb">Now: TBA</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Bose Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

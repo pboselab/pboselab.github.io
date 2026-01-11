@@ -4,7 +4,6 @@ title: People
 permalink: /people/
 ---
 
-<link rel="stylesheet" href="/assets/css/people.css">
 
 # People
 

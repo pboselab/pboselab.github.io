@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Join | Bose Lab Preview</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Dark Mode Init -->
+    <script>
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { document.documentElement.setAttribute('data-theme', savedTheme); }
+    </script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container site-header-inner">
+            <a class="site-title" href="preview.html">Bose Lab</a>
+            <nav class="site-nav">
+                <a class="nav-link" href="preview.html">Home</a>
+                <a class="nav-link" href="research.html">Research</a>
+                <a class="nav-link" href="people.html">People</a>
+                <a class="nav-link" href="publications.html">Publications</a>
+                <a class="nav-link active" href="join.html">Join</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <button id="theme-toggle" class="btn-theme" aria-label="Toggle dark mode">
+                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+        <div class="container">
+            <h1>Join the Bose Lab</h1>
+
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+                The Bose Lab welcomes curious, collaborative trainees who are excited about cancer biology, tumor
+                immunology, and data‑driven translational research in head and neck cancer. The lab emphasizes rigor,
+                openness, teamwork, and mentorship.
+            </p>
+
+            <div class="join-card">
+                <h2>Who we are looking for</h2>
+                <p>We are a good fit for people who:</p>
+                <ul>
+                    <li>Enjoy asking biological questions and thinking critically about evidence.</li>
+                    <li>Are motivated to learn (wet lab, computational, or hybrid skill sets).</li>
+                    <li>Communicate clearly and work well within a team.</li>
+                    <li>Value reproducibility and good scientific habits (documentation, version control, clean
+                        analysis).</li>
+                </ul>
+            </div>
+
+            <h2>Open positions</h2>
+
+            <div class="join-card">
+                <h3>Graduate students (MSc / PhD)</h3>
+                <p>Graduate projects typically focus on head and neck squamous cell carcinoma and may include tumor
+                    immunology, spatial transcriptomics, single‑cell multi‑omics, and translational studies in patient
+                    cohorts.</p>
+                <p><strong>How to apply</strong></p>
+                <ul>
+                    <li>Email <strong><a href="mailto:pbose@ucalgary.ca">pbose@ucalgary.ca</a></strong> with:
+                        <ul>
+                            <li>CV</li>
+                            <li>Unofficial transcript</li>
+                            <li>A short paragraph describing your research interests and why you would like to join the
+                                lab</li>
+                            <li>(Optional) Names of 1–2 references</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="join-card">
+                <h3>Postdoctoral fellows</h3>
+                <p>We are interested in candidates with strong publication records and a clear, independent research
+                    vision. Experience in one or more of the following areas is an asset:</p>
+                <ul>
+                    <li>Cancer immunology / T cell biology</li>
+                    <li>Spatial biology (e.g., Visium/HD, imaging, multiplex assays)</li>
+                    <li>Single‑cell multi‑omics (scRNA‑seq, CITE‑seq, TCR/VDJ)</li>
+                    <li>Computational biology, statistics, or machine learning applied to cancer data</li>
+                </ul>
+                <p><strong>How to apply</strong></p>
+                <ul>
+                    <li>Email <strong><a href="mailto:pbose@ucalgary.ca">pbose@ucalgary.ca</a></strong> with:
+                        <ul>
+                            <li>CV</li>
+                            <li>Brief statement of research interests (≤1 page)</li>
+                            <li>1–2 key papers or preprints you have contributed to</li>
+                            <li>Names and contact information for references</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="join-card">
+                <h3>Undergraduate students / research assistants</h3>
+                <p>We periodically have opportunities for motivated undergraduate students or research assistants to
+                    contribute to ongoing projects in molecular biology, immunology, and computational analysis.</p>
+                <p><strong>How to apply</strong></p>
+                <ul>
+                    <li>Email <strong><a href="mailto:pbose@ucalgary.ca">pbose@ucalgary.ca</a></strong> with:
+                        <ul>
+                            <li>CV</li>
+                            <li>Your program, year, and availability (start date and hours/week)</li>
+                            <li>A short note describing your interests and any relevant experience</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="join-card">
+                <h2>What to include in your email (quick checklist)</h2>
+                <p>To help us review your application efficiently, please include:</p>
+                <ul>
+                    <li>The position type (Undergraduate / MSc / PhD / Postdoc / RA)</li>
+                    <li>Your CV and anticipated start date / availability</li>
+                    <li>2–5 sentences describing your research interests</li>
+                    <li>Any relevant skills (wet lab, coding, statistics, bioinformatics, etc.)</li>
+                    <li>Links (Google Scholar, GitHub, personal website, preprints), if available</li>
+                </ul>
+            </div>
+
+            <!-- <div class="join-card" style="border-color: var(--brand-color);">
+                <h2>Equity, diversity, and inclusion</h2>
+                <p>We aim to build a supportive environment where people from diverse backgrounds can do their best
+                    work. Applicants from equity‑deserving groups are strongly encouraged to apply, and candidates who
+                    require accommodations during the application process are invited to indicate this in their email.
+                </p>
+            </div> -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Bose Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

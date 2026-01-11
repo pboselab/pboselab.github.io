@@ -3,32 +3,57 @@ layout: default
 title: Home
 ---
 
-# Bose Lab
+<div class="hero">
+  <h1>Bose Lab</h1>
+  <p>We study head and neck cancer biology and tumor immunity to enable more precise, effective therapies for patients.</p>
+  <div style="margin-top: 2rem;">
+    <a href="/research/" class="btn">Our Research</a>
+    <a href="/publications/" class="btn btn-secondary">Publications</a>
+  </div>
+</div>
 
-**Mission:** We study head and neck cancer biology and tumor immunity to enable more precise, effective therapies for patients.
+<div class="content-section" style="margin-top: 4rem;">
+  <h2>Research Themes</h2>
+  <div class="grid-3" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+    <div class="card" style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color);">
+      <h3 style="font-size: 1.25rem;">Oncogenic Drivers</h3>
+      <p style="font-size: 1rem;">Genomic discovery and mechanistic validation of therapeutic targets in HNSCC.</p>
+    </div>
+    <div class="card" style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color);">
+      <h3 style="font-size: 1.25rem;">Tumor Immunity</h3>
+      <p style="font-size: 1rem;">Dissecting the HNSCC immune microenvironment to improve immunotherapies.</p>
+    </div>
+    <div class="card" style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color);">
+      <h3 style="font-size: 1.25rem;">Computational Oncology</h3>
+      <p style="font-size: 1rem;">Applying AI to integrate spatial, single‑cell, and pathology data for precision oncology.</p>
+    </div>
+  </div>
+</div>
 
-**Quick links:** [Research](/research/) · [People](/people/) · [Publications](/publications/) · [Join](/join/) · [Contact](/contact/)
+<div class="content-section" style="margin-top: 6rem;">
+  <h2>Latest News</h2>
+  <ul style="list-style: none; padding: 0; margin-top: 2rem;">
+    <li style="margin-bottom: 2rem; border-left: 2px solid var(--brand-color); padding-left: 1.5rem;">
+      <span style="display: block; color: var(--text-accent); font-size: 0.9rem; margin-bottom: 0.5rem;">2025</span>
+      Paper accepted in <em>Cancers</em> on PIAS1 and the tumor microenvironment in oral squamous cell carcinoma.
+    </li>
+    <li style="margin-bottom: 2rem; border-left: 2px solid var(--brand-color); padding-left: 1.5rem;">
+      <span style="display: block; color: var(--text-accent); font-size: 0.9rem; margin-bottom: 0.5rem;">2025</span>
+      Spatial single‑cell and spatial transcriptomics work on glioblastoma microglia published in <em>iScience</em>.
+    </li>
+    <li style="margin-bottom: 2rem; border-left: 2px solid var(--brand-color); padding-left: 1.5rem;">
+      <span style="display: block; color: var(--text-accent); font-size: 0.9rem; margin-bottom: 0.5rem;">New Member</span>
+      Welcoming MSc student <strong>Lucy Jooyoung Hyun</strong> to work on novel CAR therapies for HNSCC.
+    </li>
+    <li style="margin-bottom: 2rem; border-left: 2px solid var(--brand-color); padding-left: 1.5rem;">
+      <span style="display: block; color: var(--text-accent); font-size: 0.9rem; margin-bottom: 0.5rem;">October 2025</span>
+      Dr. Ayan Chanda presented on “Multi‑omic Dissection of Lymph Node Metastasis in Oral Squamous Cell Carcinoma” at the Prairie Cancer Consortium.
+    </li>
+  </ul>
+</div>
 
----
-
-## Research themes
-
-- **Oncogenic drivers and targeted therapy:** Genomic discovery and mechanistic validation of therapeutic targets in HNSCC.
-- **Tumor immunity and immunotherapy:** Dissecting the HNSCC immune microenvironment to improve immunotherapies.
-- **AI‑enabled computational oncology:** Applying AI to integrate spatial, single‑cell, and pathology data for precision oncology.
-
----
-
-## News
-
-- Paper accepted in *Cancers* on PIAS1 and the tumor microenvironment in oral squamous cell carcinoma (2025).  
-- Spatial single‑cell and spatial transcriptomics work on glioblastoma microglia published in *iScience* (2025).  
-- New MSc student: **Lucy Jooyoung Hyun**, co‑supervised by Dr. Jongbok Lee and Dr. Pinaki Bose, working on developing novel CAR therapies for HNSCC.  
-- Dr. Ayan Chanda, Postdoctoral Associate, contributed to the Prairie Cancer Consortium session in the MOHCCN seminar series (October 14, 2025) on “Multi‑omic Dissection of Lymph Node Metastasis in Oral Squamous Cell Carcinoma.”
-
----
-
-## Join
-
-We welcome motivated students and trainees.  
-See **[Join](/join/)** for open positions and how to apply.
+<div class="content-section" style="margin-top: 6rem; text-align: center; background: linear-gradient(180deg, transparent 0%, rgba(47, 129, 247, 0.1) 100%); padding: 4rem 2rem; border-radius: 20px;">
+  <h2>Join Our Team</h2>
+  <p>We welcome motivated students and trainees.</p>
+  <a href="/join/" class="btn">View Open Positions</a>
+</div>

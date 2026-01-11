@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research | Bose Lab Preview</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Dark Mode Init -->
+    <script>
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { document.documentElement.setAttribute('data-theme', savedTheme); }
+    </script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container site-header-inner">
+            <a class="site-title" href="preview.html">Bose Lab</a>
+            <nav class="site-nav">
+                <a class="nav-link" href="preview.html">Home</a>
+                <a class="nav-link active" href="research.html">Research</a>
+                <a class="nav-link" href="people.html">People</a>
+                <a class="nav-link" href="publications.html">Publications</a>
+                <a class="nav-link" href="join.html">Join</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <button id="theme-toggle" class="btn-theme" aria-label="Toggle dark mode">
+                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+        <div class="container">
+            <h1>Research</h1>
+            <p style="font-size: 1.25rem; margin-bottom: 3rem;">
+                The Bose Lab investigates the biology and treatment vulnerabilities of <strong>head and neck squamous
+                    cell carcinoma (HNSCC)</strong> through integrated experimental, translational, and computational
+                approaches.
+            </p>
+
+            <div class="research-theme">
+                <h2>Theme 1: Oncogenic drivers and targeted therapy</h2>
+                <p>This theme focuses on discovering and functionally validating oncogenic drivers and dependencies in
+                    HNSCC. The lab integrates genomic and transcriptomic profiling with in silico analyses to prioritize
+                    candidate oncogenes, followed by mechanistic studies in cell lines, three‑dimensional cultures,
+                    xenografts, and mouse models.</p>
+                <p>Current work centers on targets such as <strong>RNF126</strong>, <strong>INHBA</strong>,
+                    <strong>PIAS1</strong>, and <strong>NCBP2</strong>, with an emphasis on defining their roles in
+                    tumor progression and treatment resistance and on developing rational combination strategies,
+                    including small‑molecule inhibitors and radiation‑based approaches.</p>
+            </div>
+
+            <div class="research-theme">
+                <h2>Theme 2: Tumor immunity and immunotherapy in HNSCC</h2>
+                <p>The second theme aims to delineate the immune landscape of HNSCC and to translate these insights into
+                    more effective immunotherapies. Ongoing efforts include:</p>
+                <ul>
+                    <li>Development of novel CAR‑based therapies for HNSCC</li>
+                    <li>Identification and validation of predictive biomarkers for PD‑1/PD‑L1 blockade in recurrent or
+                        metastatic disease</li>
+                    <li>High‑resolution characterization of tumor‑infiltrating lymphocytes and other immune populations
+                        using single‑cell and multi‑omic technologies</li>
+                </ul>
+                <p>These studies seek to understand mechanisms of immune evasion, refine patient selection for
+                    immunotherapy, and uncover combinatorial strategies that enhance anti‑tumor immunity.</p>
+            </div>
+
+            <div class="research-theme">
+                <h2>Theme 3: AI‑enabled computational oncology</h2>
+                <p>The third theme harnesses <strong>artificial intelligence</strong> to interpret complex molecular and
+                    imaging data in HNSCC and related malignancies. The lab is developing generative models to support
+                    and standardize digital pathology annotation, thereby improving the integration of histopathology
+                    with spatial and single‑cell datasets.</p>
+                <p>In parallel, large‑scale machine‑learning and language‑model frameworks are being built to predict
+                    therapeutic perturbation responses and to guide precision treatment design, with the goal of
+                    translating multi‑modal data into clinically actionable decision support tools.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Bose Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

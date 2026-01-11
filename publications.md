@@ -23,7 +23,7 @@ A curated list of publications, preprints, and conference abstracts from the Bos
 
 ## Publications (2025–2017)
 
-### 2025
+<h3 class="publication-year">2025</h3>
 
 - Mirzaei R, McNeil R, D'Mello C, Wong B, Sarkar S, Visser F, Poon C, **Bose P**, Yong VW. *Spatial single-cell profiling identifies protein kinase Cδ-expressing microglia with anti-tumor function in glioblastoma.* iScience (2025).[web:30]
 
@@ -35,7 +35,7 @@ A curated list of publications, preprints, and conference abstracts from the Bos
 
 (*Continue filling 2025 full articles exactly as listed once you decide which non-oncology items to keep.*)
 
-### 2024
+<h3 class="publication-year">2024</h3>
 
 - Rajwani J, Vishnevskiy D, Turk M, Naumenko V, Gafuik C, Kim DS, … **Bose P**, et al. *VSV∆M51 drives CD8+ T cell-mediated tumour regression through infection of both cancer and non-cancer cells.* Nature Communications 15 (1), 9933 (2024).[web:50]
 
@@ -43,7 +43,7 @@ A curated list of publications, preprints, and conference abstracts from the Bos
 
 - Sarkar S, Chanda A, Khanolkar RA, Lambie M, Ailles L, Bratman SV, **Bose P**, et al. *Targeting Oral Squamous Cell Carcinoma with Combined Polo-Like-Kinase-1 Inhibitors and γ-Radiation Therapy.* Biomedicines 12 (3), 503 (2024).[web:54]
 
-### 2023
+<h3 class="publication-year">2023</h3>
 
 - Arora R, Cao C, Kumar M, Sinha S, Chanda A, McNeil R, Samuel D, Matthews TW, Nakoneshny SC, Hart RD, Chandarana SP, Dort JC, Hyrcza MD, Gallo M, Bonni S, **Bose P**, et al. *Spatial transcriptomics reveals distinct and conserved tumor core and edge architectures that predict survival and targeted therapy response.* Nature Communications 14 (1), 5029 (2023).[web:80]
 
@@ -57,7 +57,7 @@ A curated list of publications, preprints, and conference abstracts from the Bos
 
 - Mirzaei R, D'Mello C, Liu M, Nikolic A, Kumar M, Visser F, **Bose P**, Gallo M, et al. *Single-Cell Spatial Analysis Identifies Regulators of Brain Tumor–Initiating Cells.* Cancer Research 83 (10), 1725–1741 (2023).[web:21]
 
-### 2022
+<h3 class="publication-year">2022</h3>
 
 - Zeng PYF, Cecchini MJ, Barrett JW, Shammas-Toma M, De Cecco L, Serafini M, … **Bose P**, et al. *Immune-based classification of HPV-associated oropharyngeal cancer with implications for biomarker-driven treatment de-intensification.* EBioMedicine 86 (2022).[web:65]
 
@@ -65,7 +65,7 @@ A curated list of publications, preprints, and conference abstracts from the Bos
 
 - Bose P, Arora R, Haynes L, Kumar M, McNeil R, Ashkani J, Nakoneshny SC, et al. *NCBP2 and TFRC are Novel Prognostic Biomarkers in Oral Squamous Cell Carcinoma.* (Cancers / Cancer Gene Therapy listing, 2022 online-first entry).[web:71]
 
-### 2021–2020 (journal articles only)
+<h3 class="publication-year">2021–2020 (journal articles only)</h3>
 
 - Mirzaei R, Gordon A, Zemp FJ, Kumar M, Sarkar S, Luchman HA, … **Bose P**, et al. *PD-1 independent of PD-L1 ligation promotes glioblastoma growth through the NFκB pathway.* Science Advances 7 (45), eabh2148 (2021).[web:76]
 
@@ -83,13 +83,13 @@ A curated list of publications, preprints, and conference abstracts from the Bos
 
 - Sarkar S, Yang R, Mirzaei R, Rawji K, Poon C, Mishra MK, Zemp FJ, **Bose P**, Yong VW. *Control of brain tumor growth by reactivating myeloid cells with niacin.* Science Translational Medicine 12 (537), eaay9924 (2020).[web:76]
 
-- ### 2019
+- <h3 class="publication-year">2019</h3>
 
 - Jette N, Radhamani S, Arthur G, Ye R, Goutam S, Bolyos A, Petersen LF, **Bose P**, et al. *Combined poly-ADP ribose polymerase and ataxia-telangiectasia mutated/Rad3-related inhibition targets ataxia-telangiectasia mutated-deficient lung cancer cells.* British Journal of Cancer 121 (7), 600–610 (2019).[web:16]
 
 - Shen Y, Grisdale CJ, Islam SA, **Bose P**, Lever J, Zhao EY, Grinshtein N, … et al. *Comprehensive genomic profiling of glioblastoma tumors, BTICs, and xenografts reveals stability and adaptation to growth environments.* Proceedings of the National Academy of Sciences 116 (38), 19098–19108 (2019).[web:16]
 
-### 2018
+<h3 class="publication-year">2018</h3>
 
 - Chakravarthy A, Khan L, Bensler NP, **Bose P**, De Carvalho DD. *TGF-β-associated extracellular matrix genes link cancer-associated fibroblasts to immune evasion and immunotherapy failure.* Nature Communications 9 (1), 4692 (2018).[web:16]
 

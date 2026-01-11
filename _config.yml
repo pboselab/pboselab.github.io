@@ -1,8 +1,12 @@
 title: "Bose Lab"
 description: "We study head and neck cancer biology, tumor immunity, and AI-driven precision oncology."
-theme: minima
+# theme: minima
+# remote_theme: pages-themes/minima@v0.2.0
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 
 sass:
-  sass_dir: assets/css
-
-# Minima will pick up assets/css/custom.scss automatically if you import minima as above
+  sass_dir: assets
+  style: compressed
