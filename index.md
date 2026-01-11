@@ -1,16 +1,7 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
-
-<div class="hero">
-  <h1>Bose Lab</h1>
-  <p>We study head and neck cancer biology and tumor immunity to enable more precise, effective therapies for patients.</p>
-  <div style="margin-top: 2rem;">
-    <a href="/research/" class="btn">Our Research</a>
-    <a href="/publications/" class="btn btn-secondary">Publications</a>
-  </div>
-</div>
 
 <div class="content-section" style="margin-top: 4rem;">
   <h2>Research Themes</h2>

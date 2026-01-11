@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="container hero-content">
+        <h1>Bose Lab</h1>
+        <p style="font-size: 1.5rem; font-weight: 300; line-height: 1.4; margin-bottom: 2rem;">
+            Deciphering <strong style="color: var(--brand-color);">tumor immunity</strong> and <strong
+                style="color: var(--brand-color);">oncogenic drivers</strong> to engineering precision therapies for
+            head and neck cancer.
+        </p>
+        <div style="margin-top: 2rem;">
+            <a href="{{ '/research/' | relative_url }}" class="btn">Explore Our Research</a>
+            <a href="{{ '/publications/' | relative_url }}" class="btn btn-secondary">Publications</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    {{ content }}
+</div>
+
+<script src="{{ '/assets/js/hero-animation.js' | relative_url }}"></script>

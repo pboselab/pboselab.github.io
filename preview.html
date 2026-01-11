@@ -49,18 +49,25 @@
     </header>
 
     <main class="page-content" aria-label="Content">
-        <div class="container">
-            <!-- Manually injected content from index.md -->
-            <div class="hero">
+        <!-- Hero Section -->
+        <div class="hero">
+            <canvas id="hero-canvas"></canvas>
+            <div class="container hero-content">
                 <h1>Bose Lab</h1>
-                <p>We study head and neck cancer biology and tumor immunity to enable more precise, effective therapies
-                    for patients.</p>
+                <p style="font-size: 1.5rem; font-weight: 300; line-height: 1.4; margin-bottom: 2rem;">
+                    Deciphering <strong style="color: var(--brand-color);">tumor immunity</strong> and <strong
+                        style="color: var(--brand-color);">oncogenic drivers</strong> to engineering precision
+                    therapies for head and neck cancer.
+                </p>
                 <div style="margin-top: 2rem;">
-                    <a href="research.html" class="btn">Our Research</a>
+                    <a href="research.html" class="btn">Explore Our Research</a>
                     <a href="publications.html" class="btn btn-secondary">Publications</a>
                 </div>
             </div>
+        </div>
 
+        <div class="container">
+            <!-- Manually injected content from index.md -->
             <div class="content-section" style="margin-top: 4rem;">
                 <h2>Research Themes</h2>
                 <div class="grid-3"
@@ -68,7 +75,8 @@
                     <div class="card"
                         style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color);">
                         <h3 style="font-size: 1.25rem;">Oncogenic Drivers</h3>
-                        <p style="font-size: 1rem;">Genomic discovery and mechanistic validation of therapeutic targets
+                        <p style="font-size: 1rem;">Genomic discovery and mechanistic validation of therapeutic
+                            targets
                             in HNSCC.</p>
                     </div>
                     <div class="card"
@@ -80,7 +88,8 @@
                     <div class="card"
                         style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color);">
                         <h3 style="font-size: 1.25rem;">Computational Oncology</h3>
-                        <p style="font-size: 1rem;">Applying AI to integrate spatial, single‑cell, and pathology data
+                        <p style="font-size: 1rem;">Applying AI to integrate spatial, single‑cell, and pathology
+                            data
                             for precision oncology.</p>
                     </div>
                 </div>
@@ -92,7 +101,8 @@
                     <li style="margin-bottom: 2rem; border-left: 2px solid var(--brand-color); padding-left: 1.5rem;">
                         <span
                             style="display: block; color: var(--text-accent); font-size: 0.9rem; margin-bottom: 0.5rem;">2025</span>
-                        Paper accepted in <em>Cancers</em> on PIAS1 and the tumor microenvironment in oral squamous cell
+                        Paper accepted in <em>Cancers</em> on PIAS1 and the tumor microenvironment in oral squamous
+                        cell
                         carcinoma.
                     </li>
                     <li style="margin-bottom: 2rem; border-left: 2px solid var(--brand-color); padding-left: 1.5rem;">
@@ -117,7 +127,6 @@
                 <p>We welcome motivated students and trainees.</p>
                 <a href="join.html" class="btn">View Open Positions</a>
             </div>
-        </div>
     </main>
 
     <footer>
@@ -127,6 +136,7 @@
     </footer>
 
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/hero-animation.js"></script>
     <script>
         document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
