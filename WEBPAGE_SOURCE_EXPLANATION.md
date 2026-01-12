@@ -73,6 +73,8 @@ plugins:
   - jekyll-sitemap
 ```
 
+**Note**: The current configuration shows `baseurl: "/pboselab.github.io"` and `url: "https://bose-lab-ucalgary.github.io"`. For a standard GitHub Pages project site at `https://bose-lab-ucalgary.github.io/pboselab.github.io/`, this baseurl is correct. However, if this is meant to be a user/organization site (served at the root domain without a path), the baseurl should typically be empty (`baseurl: ""`). The site's actual deployment determines which configuration is needed.
+
 ### Layout Files
 
 Located in `_layouts/` directory:
