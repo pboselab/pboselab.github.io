@@ -1,5 +1,7 @@
 title: "Bose Lab"
 description: "We study head and neck cancer biology, tumor immunity, and AI-driven precision oncology."
+baseurl: "/pboselab.github.io"
+url: "https://bose-lab-ucalgary.github.io"
 # theme: minima
 # remote_theme: pages-themes/minima@v0.2.0
 plugins:

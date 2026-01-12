@@ -12,7 +12,7 @@ permalink: /people/
 <div class="people-grid">
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Pinaki Bose headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Pinaki Bose headshot">
     <div class="person-name">Pinaki Bose, PhD</div>
     <div class="person-role">Principal Investigator</div>
     <p class="person-blurb">
@@ -37,7 +37,7 @@ permalink: /people/
 <div class="people-grid">
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Ayan Chanda headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Ayan Chanda headshot">
     <div class="person-name">Ayan Chanda, MTech, PhD</div>
     <div class="person-role">Postdoctoral Associate</div>
     <p class="person-blurb">
@@ -49,7 +49,7 @@ permalink: /people/
   </div>
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="K.M. Tahsin Hassan Rahit headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="K.M. Tahsin Hassan Rahit headshot">
     <div class="person-name">K.M. Tahsin Hassan Rahit, MSc, PhD</div>
     <div class="person-role">Postdoctoral Associate</div>
     <p class="person-blurb">
@@ -69,7 +69,7 @@ permalink: /people/
 <div class="people-grid">
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Dae-Sun Kim headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Dae-Sun Kim headshot">
     <div class="person-name">Dae-Sun Kim, BSc, PhD</div>
     <div class="person-role">Research Associate</div>
     <p class="person-blurb">
@@ -79,7 +79,7 @@ permalink: /people/
   </div>
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Megha Murali headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Megha Murali headshot">
     <div class="person-name">Megha Murali, MSc, PhD</div>
     <div class="person-role">Technical Associate</div>
     <p class="person-blurb">
@@ -99,7 +99,7 @@ permalink: /people/
 <div class="people-grid">
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Jackson McLean headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Jackson McLean headshot">
     <div class="person-name">Jackson McLean, BHSc </div>
     <div class="person-role">MSc Student (Year 2) — Biochemistry & Molecular Biology</div>
     <p class="person-blurb">
@@ -108,7 +108,7 @@ permalink: /people/
   </div>
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Jinsu An headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Jinsu An headshot">
     <div class="person-name">Jinsu An, BHSc </div>
     <div class="person-role">MSc Student (Year 2) — Biochemistry & Molecular Biology</div>
     <p class="person-blurb">
@@ -117,7 +117,7 @@ permalink: /people/
   </div>
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Lucy Jooyoung Hyun headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Lucy Jooyoung Hyun headshot">
     <div class="person-name">Lucy Jooyoung Hyun, BSc</div>
     <div class="person-role">MSc Student (Year 1) — Biochemistry & Molecular Biology</div>
     <p class="person-blurb">
@@ -134,7 +134,7 @@ permalink: /people/
 <div class="people-grid">
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Jamie MacDonald headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Jamie MacDonald headshot">
     <div class="person-name">Jamie MacDonald</div>
     <div class="person-role">Undergraduate Student — Computer Science </div>
     <p class="person-blurb">
@@ -143,7 +143,7 @@ permalink: /people/
   </div>
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Maria Mansi headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Maria Mansi headshot">
     <div class="person-name">Maria Mansi</div>
     <div class="person-role">Undergraduate Student — Computer Science </div>
     <p class="person-blurb">
@@ -160,7 +160,7 @@ permalink: /people/
 <div class="people-grid">
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Reid McNeil headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Reid McNeil headshot">
     <div class="person-name">Reid McNeil, MSc</div>
     <div class="person-role">Former MSc Student — Biochemistry & Molecular Biology (2021–2024)</div>
     <p class="person-blurb">
@@ -169,7 +169,7 @@ permalink: /people/
   </div>
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Parisa Ghahremanifard headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Parisa Ghahremanifard headshot">
     <div class="person-name">Parisa Ghahremanifard</div>
     <div class="person-role">Former PhD Student — Biochemistry & Molecular Biology (2019–2025)</div>
     <p class="person-blurb">
@@ -178,7 +178,7 @@ permalink: /people/
   </div>
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Ilana Lebon headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Ilana Lebon headshot">
     <div class="person-name">Ilana Lebon</div>
     <div class="person-role">Former Undergraduate Student — Honours thesis & summer student</div>
     <p class="person-blurb">
@@ -187,7 +187,7 @@ permalink: /people/
   </div>
 
   <div class="person-card">
-    <img class="person-photo" src="/assets/people/placeholder.jpg" alt="Lara D’souza headshot">
+    <img class="person-photo" src="{{ '/assets/people/placeholder.jpg' | relative_url }}" alt="Lara D’souza headshot">
     <div class="person-name">Lara D’souza</div>
     <div class="person-role">Former Undergraduate Student — Honours thesis & summer student</div>
     <p class="person-blurb">
