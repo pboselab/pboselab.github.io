@@ -2,67 +2,55 @@
 
 ## Summary
 
-**The project is loading webpages from `.md` (Markdown) files** when deployed to GitHub Pages.
+**The project is now loading webpages from `.html` (static HTML) files** when deployed to GitHub Pages.
 
-The `.html` files in the repository root are **standalone preview files** for local development only.
+The `.md` files in the repository root are **legacy source files** that were previously used with Jekyll but are no longer active.
 
 ## Detailed Explanation
 
 ### Architecture Overview
 
-This is a **Jekyll-based static site** configured for GitHub Pages deployment.
+This is now a **static HTML site** served directly by GitHub Pages without Jekyll processing.
 
-### Two Sets of Files
+### Current Configuration
 
-#### 1. **Markdown Files (.md)** - Production Source Files
-- Located in root: `index.md`, `people.md`, `contact.md`, `research.md`, `publications.md`, `join.md`
-- These contain:
-  - **YAML front matter** defining layout, title, and permalink
-  - **Markdown content** with Jekyll Liquid template tags (e.g., `{{ '/assets/img/research_dna.png' | relative_url }}`)
-- **Used by Jekyll** to generate the live website
-- When GitHub Pages builds the site, Jekyll:
-  1. Reads the `.md` files
-  2. Processes the front matter
-  3. Converts Markdown to HTML
-  4. Wraps content in layouts from `_layouts/` directory
-  5. Generates final HTML pages in the `_site/` directory (not committed to git)
-
-Example front matter from `people.md`:
-```yaml
----
-layout: default
-title: People
-permalink: /people/
----
-```
-
-#### 2. **HTML Files (.html)** - Preview Files for Local Development
-- Located in root: `preview.html`, `people.html`, `contact.html`, `research.html`, `publications.html`, `join.html`
+#### **HTML Files (.html)** - Production Source Files
+- Located in root: `index.html`, `people.html`, `contact.html`, `research.html`, `publications.html`, `join.html`
 - These are **complete standalone HTML files** with:
   - Full DOCTYPE and HTML structure
-  - Hardcoded links to other `.html` preview files (e.g., `href="preview.html"`)
+  - Direct links to other `.html` files (e.g., `href="index.html"`)
   - Direct asset references (e.g., `href="assets/css/style.css"`)
-- **NOT used by GitHub Pages** for the live website
-- Purpose: Allow developers to preview pages locally by opening them directly in a browser **without running Jekyll**
+- **Directly served by GitHub Pages** as static files
+- The `.nojekyll` file in the root directory tells GitHub Pages to skip Jekyll processing
 
-Evidence from `people.html`:
+Example from `people.html`:
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>People | Bose Lab Preview</title>
+    <title>People | Bose Lab</title>
     <link rel="stylesheet" href="assets/css/style.css">
 ```
 
-Notice the navigation links in preview files point to `.html` files:
+Notice the navigation links point directly to `.html` files:
 ```html
 <a class="nav-link" href="people.html">People</a>
 ```
 
-### Jekyll Configuration
+#### **Markdown Files (.md)** - Legacy Files (Not Used)
+- Located in root: `index.md`, `people.md`, `contact.md`, `research.md`, `publications.md`, `join.md`
+- These contain:
+  - **YAML front matter** that was used by Jekyll
+  - **Markdown content** with Jekyll Liquid template tags
+- **NOT used by GitHub Pages** for the current website
+- Kept for historical reference or potential future use
 
-**`_config.yml`** configures the Jekyll site:
+### Jekyll Configuration (Legacy)
+
+The following files are from the previous Jekyll-based setup and are no longer active:
+
+**`_config.yml`** - Jekyll configuration (no longer processed):
 ```yaml
 title: "Bose Lab"
 baseurl: "/pboselab.github.io"
@@ -73,27 +61,28 @@ plugins:
   - jekyll-sitemap
 ```
 
-**Note**: The current configuration shows `baseurl: "/pboselab.github.io"` and `url: "https://bose-lab-ucalgary.github.io"`. For a standard GitHub Pages project site at `https://bose-lab-ucalgary.github.io/pboselab.github.io/`, this baseurl is correct. However, if this is meant to be a user/organization site (served at the root domain without a path), the baseurl should typically be empty (`baseurl: ""`). The site's actual deployment determines which configuration is needed.
+**`.nojekyll`** - This empty file in the root tells GitHub Pages to **skip Jekyll processing** and serve the HTML files directly as static content.
 
-### Layout Files
+### Layout Files (Legacy)
 
 Located in `_layouts/` directory:
-- **`default.html`**: Main template with Jekyll Liquid tags (`{{ content }}`, `{% seo %}`, etc.)
-- **`home.html`**: Extends default.html for the homepage
+- **`default.html`**: Former Jekyll template with Liquid tags
+- **`home.html`**: Former Jekyll template for homepage
 
-These layouts wrap the content from `.md` files.
+These layouts are no longer used since Jekyll processing is disabled.
 
-### Build Process
+### Deployment Process
 
 **GitHub Pages Deployment:**
-1. GitHub Pages automatically runs `jekyll build`
-2. Jekyll processes all `.md` files
-3. Applies layouts from `_layouts/`
-4. Generates final HTML in `_site/` directory (served to visitors)
+1. GitHub Pages detects the `.nojekyll` file in the repository root
+2. Skips Jekyll build process entirely
+3. Serves `.html` files directly as static content
+4. Assets (CSS, JS, images) are served from the `assets/` directory
 
-**Local Preview (Two Options):**
-- **Option A**: Run `jekyll serve` to build and serve the site locally (uses `.md` files)
-- **Option B**: Open `.html` preview files directly in browser (no build needed, no Jekyll required)
+**Local Development:**
+- Simply open any `.html` file directly in a browser
+- No build process or server required
+- All links and assets work immediately with relative paths
 
 ### What Gets Ignored
 
@@ -105,10 +94,21 @@ _site/
 .jekyll-metadata
 ```
 
-This confirms that generated files are not committed - only source files are versioned.
+These directories are from the previous Jekyll setup and are no longer generated.
 
 ## Conclusion
 
-**For the live website on GitHub Pages**: The project loads from **`.md` files**, which Jekyll processes and converts to HTML using templates from `_layouts/`.
+**For the live website on GitHub Pages**: The project now loads from **`.html` files**, which are served directly as static content without any build process.
 
-**For local development preview**: Developers can optionally use standalone **`.html` files** to quickly preview pages without running Jekyll, but these are NOT used for the production website.
+**Key files:**
+- `index.html` - Homepage (formerly `preview.html`)
+- `people.html`, `contact.html`, `research.html`, `publications.html`, `join.html` - Other pages
+- `.nojekyll` - Tells GitHub Pages to skip Jekyll processing
+- `assets/` - CSS, JavaScript, and images
+
+**Legacy files (no longer used):**
+- `.md` files - Previous Jekyll source files
+- `_layouts/` - Previous Jekyll templates
+- `_config.yml` - Previous Jekyll configuration
+
+The site is now a simple static HTML website that can be opened directly in a browser or served by any web server without requiring Jekyll or any build process.
