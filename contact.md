@@ -26,7 +26,7 @@ permalink: /contact/
 
   <div style="flex: 1; min-width: 300px;">
     <div class="illustration-container">
-      <img src="/assets/img/contact_lab.png" alt="Lab Location" class="illustration-img">
+      <img src="{{ '/assets/img/contact_lab.png' | relative_url }}" alt="Lab Location" class="illustration-img">
     </div>
     <h2>Location</h2>
     <p>

@@ -25,7 +25,7 @@ The Bose Lab welcomes curious, collaborative trainees who are excited about canc
 
 <div class="join-card">
   <div class="illustration-container" style="height: 150px;">
-    <img src="/assets/img/join_student.png" alt="Graduate Studies" class="illustration-img">
+    <img src="{{ '/assets/img/join_student.png' | relative_url }}" alt="Graduate Studies" class="illustration-img">
   </div>
   <h3>Graduate students (MSc / PhD)</h3>
   <p>Graduate projects typically focus on head and neck squamous cell carcinoma and may include tumor immunology, spatial transcriptomics, single‑cell multi‑omics, and translational studies in patient cohorts.</p>
@@ -44,7 +44,7 @@ The Bose Lab welcomes curious, collaborative trainees who are excited about canc
 
 <div class="join-card">
   <div class="illustration-container" style="height: 150px;">
-    <img src="/assets/img/join_postdoc.png" alt="Postdoctoral Fellow" class="illustration-img">
+    <img src="{{ '/assets/img/join_postdoc.png' | relative_url }}" alt="Postdoctoral Fellow" class="illustration-img">
   </div>
   <h3>Postdoctoral fellows</h3>
   <p>We are interested in candidates with strong publication records and a clear, independent research vision. Experience in one or more of the following areas is an asset:</p>
