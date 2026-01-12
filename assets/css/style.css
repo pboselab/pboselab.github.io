@@ -87,6 +87,8 @@ body {
     line-height: 1.6;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll from full-width sections */
 }
 
 h1,
@@ -260,10 +262,10 @@ a:hover {
     /* Solid fallback */
 
     /* Full Width Breakout */
-    margin-top: calc(var(--space-lg) * -1);
-    /* Pull up to remove page-content padding */
     width: 100vw;
     margin-left: calc(50% - 50vw);
+    margin-top: calc(var(--space-lg) * -1);
+    /* Remove top padding gap */
 }
 
 /* Canvas Background */
@@ -327,6 +329,106 @@ a:hover {
     color: var(--text-primary);
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
     /* Dark mode shadow */
+}
+
+/* Icons */
+.icon {
+    width: 24px;
+    height: 24px;
+    stroke: var(--brand-color);
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vertical-align: middle;
+    margin-right: var(--space-xs);
+    display: inline-block;
+}
+
+.icon-lg {
+    width: 48px;
+    height: 48px;
+    margin-bottom: var(--space-sm);
+    display: block;
+}
+
+/* Premium UI - Illustrations */
+.illustration-container {
+    width: 100%;
+    height: 200px;
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    margin-bottom: var(--space-md);
+    overflow: hidden;
+    position: relative;
+}
+
+.illustration-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.card:hover .illustration-img {
+    transform: scale(1.05);
+}
+
+/* Premium UI - Glassmorphism Card Enhancement */
+.card {
+    background: rgba(255, 255, 255, 0.03) !important;
+    /* Low opacity for glass feel */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    /* Stronger shadow */
+    border-color: var(--brand-color) !important;
+}
+
+[data-theme="light"] .card {
+    background: rgba(255, 255, 255, 0.7) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Premium UI - Timeline */
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid var(--border-color);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -2.6rem;
+    top: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: var(--bg-primary);
+    border: 2px solid var(--brand-color);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-date {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--brand-color);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 /* Buttons */
